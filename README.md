@@ -1,5 +1,10 @@
 # 📊 Insurance Cost Prediction using Linear Regression (R)
 
+![Language](https://img.shields.io/badge/Language-R-blue?logo=r)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Enabled-blueviolet)
+![Linear Regression](https://img.shields.io/badge/Model-Linear%20Regression-success)
+![Correlation](https://img.shields.io/badge/Analysis-Correlation-orange)
 ## 🔍 Project Overview
 
 This project builds a **Linear Regression model in R** to predict medical insurance charges based on factors like age, BMI, smoking status, and gender.
@@ -15,6 +20,14 @@ This project builds a **Linear Regression model in R** to predict medical insura
   * Smoker status
   * Gender
   * Charges (target variable)
+
+---
+
+
+## 🛠️ Technologies Used
+Language: R
+
+Libraries: fastDummies, corrplot, caTools, car, psych
 
 ---
 
@@ -86,17 +99,6 @@ This project builds a **Linear Regression model in R** to predict medical insura
 
 ---
 
-## 🛠️ Technologies Used
-* R
-* Packages:
-  * fastDummies
-  * corrplot
-  * caTools
-  * car
-  * psych
-
----
-
 ## 📊 Sample Model Equation
 
 Charges = β0 + β1(Age) + β2(BMI) + β3(Smoker)
@@ -111,6 +113,24 @@ Charges = β0 + β1(Age) + β2(BMI) + β3(Smoker)
 4. View outputs and plots
 
 ---
+## Output images
+
+## Correlation
+✔ Shows strong positive relationship between smoker and charges
+<img width="797" height="753" alt="Correlation" src="https://github.com/user-attachments/assets/1eb10d74-a0ba-40a5-b853-21ed9384ad09" />
+
+## Pairs PLot
+✔ Visualizes relationships and distributions between variables
+<img width="842" height="811" alt="pairs plot" src="https://github.com/user-attachments/assets/906696dc-d34c-4d6c-b9d7-ea516888b815" />
+
+## Model plot
+✔ Residuals are fairly randomly distributed, indicating acceptable model fit
+<img width="817" height="786" alt="model3" src="https://github.com/user-attachments/assets/cb24f3f3-70ee-48c4-86b7-e5f2f60d41a2" />
+
+## Actual vs Predicted values plot
+✔ Predicted values closely follow actual values, showing good model performance
+<img width="833" height="802" alt="Actual vs predicted plot" src="https://github.com/user-attachments/assets/b283dd89-1964-4f0f-86ca-ce609037a0d3" />
+
 
 ## 👩‍💻 Author
 
